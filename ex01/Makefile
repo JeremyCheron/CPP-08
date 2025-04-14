@@ -6,7 +6,7 @@
 #    By: jcheron <jcheron@student.42.fr>            +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/04/09 07:44:40 by jcheron           #+#    #+#              #
-#    Updated: 2025/04/09 09:12:02 by jcheron          ###   ########.fr        #
+#    Updated: 2025/04/14 08:30:56 by jcheron          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -18,7 +18,7 @@ OBJ_DIR = obj
 SRC = $(SRC_DIR)/main.cpp $(SRC_DIR)/Span.cpp
 OBJ = $(OBJ_DIR)/main.o	$(OBJ_DIR)/Span.o
 
-NAME = ex00
+NAME = ex01
 
 all: $(NAME)
 
