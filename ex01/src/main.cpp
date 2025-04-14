@@ -6,7 +6,7 @@
 /*   By: jcheron <jcheron@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/09 09:07:01 by jcheron           #+#    #+#             */
-/*   Updated: 2025/04/09 09:13:15 by jcheron          ###   ########.fr       */
+/*   Updated: 2025/04/09 09:13:55 by jcheron          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,9 +30,9 @@ int main(void) {
 		std::cout << "Shortest span : " << sp.shortestSpan() << std::endl;
 		std::cout << "Longest span : " << sp.longestSpan() << std::endl;
 
-		Span big(10000);
+		Span big(100000);
 		std::vector<int> vec;
-		for (int i = 0; i < 10000; ++i)
+		for (int i = 0; i < 100000; ++i)
 			vec.push_back(rand());
 		big.addNumber(vec.begin(), vec.end());
 
